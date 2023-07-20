@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Millicent",
+      "lastName": "Welsby",
+      "email": "mwelsby0@friendfeed.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Uriel",
+      "lastName": "Allmen",
+      "email": "uallmen1@nbcnews.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Valerye",
+      "lastName": "Poynton",
+      "email": "vpoynton2@webnode.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Gardener",
+      "lastName": "Emerson",
+      "email": "gemerson3@51.la"
+    },
+    {
+      "id": 5,
+      "firstName": "Tracy",
+      "lastName": "Iacomettii",
+      "email": "tiacomettii4@example.com"
+    },
+    {
+      "id": 6,
+      "firstName": "Benedetta",
+      "lastName": "Reasun",
+      "email": "breasun5@cam.ac.uk"
+    },
+    {
+      "id": 7,
+      "firstName": "Adair",
+      "lastName": "Clausen-Thue",
+      "email": "aclausenthue6@bluehost.com"
+    },
+    {
+      "id": 8,
+      "firstName": "Dav",
+      "lastName": "Margerison",
+      "email": "dmargerison7@slashdot.org"
+    },
+    {
+      "id": 9,
+      "firstName": "Jessalyn",
+      "lastName": "Cunnington",
+      "email": "jcunnington8@t.co"
+    },
+    {
+      "id": 10,
+      "firstName": "Del",
+      "lastName": "Stubbings",
+      "email": "dstubbings9@hp.com"
+    }
+  ]
+}
