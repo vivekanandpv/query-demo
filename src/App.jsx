@@ -1,6 +1,7 @@
 import { Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Sample from './Sample';
+import Demo from './Demo';
 
 const App = (props) => {
   return (
@@ -15,6 +16,9 @@ const App = (props) => {
           <li>
             <Link to='/sample'>Sample</Link>
           </li>
+          <li>
+            <Link to='/demo'>Demo</Link>
+          </li>
         </ul>
         <hr />
         <Switch>
@@ -23,6 +27,9 @@ const App = (props) => {
           </Route>
           <Route exact path='/sample'>
             <Sample />
+          </Route>
+          <Route exact path='/demo'>
+            <Demo />
           </Route>
         </Switch>
       </div>
