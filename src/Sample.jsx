@@ -11,7 +11,7 @@ const Sample = (props) => {
   if (isLoading) {
     return (
       <>
-        <h3>Demo Loading...</h3>
+        <h3>Sample Loading...</h3>
       </>
     );
   }
@@ -19,14 +19,14 @@ const Sample = (props) => {
   if (isError) {
     return (
       <>
-        <h3>Demo: Can't reach to our servers. Try again...</h3>
+        <h3>Sample: Can't reach to our servers. Try again...</h3>
       </>
     );
   }
 
   return (
     <>
-      <h3>Demo</h3>
+      <h3>Sample</h3>
       <table className='table table-bordered table-striped'>
         <thead>
           <tr>

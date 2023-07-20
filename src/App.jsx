@@ -2,6 +2,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import Sample from './Sample';
 import Demo from './Demo';
+import Counter from './Counter';
 
 const App = (props) => {
   return (
@@ -19,6 +20,9 @@ const App = (props) => {
           <li>
             <Link to='/demo'>Demo</Link>
           </li>
+          <li>
+            <Link to='/counter'>Counter</Link>
+          </li>
         </ul>
         <hr />
         <Switch>
@@ -30,6 +34,9 @@ const App = (props) => {
           </Route>
           <Route exact path='/demo'>
             <Demo />
+          </Route>
+          <Route exact path='/counter'>
+            <Counter />
           </Route>
         </Switch>
       </div>
