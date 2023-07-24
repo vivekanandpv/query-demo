@@ -8,7 +8,7 @@ const User = (props) => {
     axios.get('https://jsonplaceholder.typicode.com/users/1').then((r) => {
       setUser(r.data);
     });
-  });
+  }, []);
   return (
     <>
       <p>{user.email}</p>
