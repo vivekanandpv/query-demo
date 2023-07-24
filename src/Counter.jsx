@@ -4,9 +4,7 @@ const Counter = (props) => {
   const [counter, setCounter] = React.useState(0);
 
   const increment = () => {
-    setTimeout(() => {
-      setCounter(counter + 1);
-    }, 1000);
+    setCounter(counter + 1);
   };
   const decrement = () => setCounter(counter - 1);
 

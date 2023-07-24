@@ -22,11 +22,6 @@ describe('Counter component should', () => {
     render(<Counter />);
     const btn = screen.getByTestId('inc-btn');
     fireEvent.click(btn);
-
-    await new Promise((res, rej) => {
-      setTimeout(() => res(true), 1500);
-    });
-
     const span = screen.getByTestId('counter-span');
     expect(span).toHaveTextContent('1');
   });

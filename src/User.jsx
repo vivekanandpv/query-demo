@@ -6,7 +6,6 @@ const User = (props) => {
 
   React.useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users/1').then((r) => {
-      console.log(r);
       setUser(r.data);
     });
   }, []);
