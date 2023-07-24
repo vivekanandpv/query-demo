@@ -3,6 +3,7 @@ import Home from './Home';
 import Sample from './Sample';
 import Demo from './Demo';
 import Counter from './Counter';
+import User from './User';
 
 const App = (props) => {
   return (
@@ -23,6 +24,9 @@ const App = (props) => {
           <li>
             <Link to='/counter'>Counter</Link>
           </li>
+          <li>
+            <Link to='/user'>User</Link>
+          </li>
         </ul>
         <hr />
         <Switch>
@@ -37,6 +41,9 @@ const App = (props) => {
           </Route>
           <Route exact path='/counter'>
             <Counter />
+          </Route>
+          <Route exact path='/user'>
+            <User />
           </Route>
         </Switch>
       </div>
