@@ -6,12 +6,14 @@ const User = (props) => {
 
   React.useEffect(() => {
     axios.get('https://jsonplaceholder.typicode.com/users/1').then((r) => {
+      console.log(r);
       setUser(r.data);
     });
   }, []);
+
   return (
     <>
-      <p>{user.email}</p>
+      <p data-testid='email'>{user.email}</p>
     </>
   );
 };
